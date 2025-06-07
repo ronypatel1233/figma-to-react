@@ -252,6 +252,7 @@ const Blog = () => {
           ))}
         </TestimonialGrid>
       </TestimonialSection>
+      
       <BlogSection id="blogs">
         <Container>
           <TopRow>

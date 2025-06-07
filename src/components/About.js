@@ -105,7 +105,7 @@ const AboutImage = styled.img`
 `;
 
 const About = () => (
-  <Section>
+  <Section id="about">
     <ContentWrapper>
       <Left>
         <p style={{marginLeft:"20%", fontSize:"45px" , fontWeight:"bold"}}>About us</p>

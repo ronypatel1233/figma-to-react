@@ -142,7 +142,7 @@ const services = [
 ];
 
 const ServiceSection = () => (
-  <Section>
+  <Section id="services">
     <Container>
       <Title>Services</Title>
       <Grid>

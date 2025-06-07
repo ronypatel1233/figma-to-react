@@ -208,7 +208,7 @@ const Hero = () => (
         <div onClick={() => document.getElementById('services').scrollIntoView({ behavior: 'smooth' })}>Services</div>
         <div onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })}>About us</div>
         <div onClick={() => document.getElementById('blogs').scrollIntoView({ behavior: 'smooth' })}>Blogs</div>
-        <div >Case Studies</div>
+        <div onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Case Studies</div>
         <ContactButton onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>CONTACT US</ContactButton>
       </Nav>
     </HeaderBar>
