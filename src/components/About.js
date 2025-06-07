@@ -75,7 +75,7 @@ const OrangeBar = styled.div`
   background: #ff7a00;
   border-radius: 19px;
   margin-top: 24px;
-
+margin-left: 20%;
   @media (max-width: 900px) {
     margin: 24px auto 0 auto;
   }
@@ -108,11 +108,11 @@ const About = () => (
   <Section>
     <ContentWrapper>
       <Left>
-        <Title>About us</Title>
-        <Subtext>
+        <p style={{marginLeft:"20%", fontSize:"45px" , fontWeight:"bold"}}>About us</p>
+        <p style={{marginLeft:"20%", textAlign:"left"} }>
           Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet consetetur sadipscing elitr
-        </Subtext>
-        <OrangeBar />
+        </p>
+        <OrangeBar  />
       </Left>
       <Right>
         <AboutImage src={aboutImg} alt="About us" />

@@ -6,7 +6,9 @@ import Hero from './components/Home';
 import About from './components/About';
 import Services from './components/Service';
 import './App.css';
-
+import Footer from './components/Footer';
+import Contact from './components/Contact';
+import Blog from './components/Blog';
 function App() {
   return (
     <Provider store={store}>
@@ -16,6 +18,9 @@ function App() {
             <Hero />
             <Services />
             <About />
+            <Blog/>
+            <Contact/>
+            <Footer/>
           </main>
 
         </div>
