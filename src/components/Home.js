@@ -205,11 +205,11 @@ const Hero = () => (
     <HeaderBar>
       <Logo src={logo} alt="Gecko Accountancy" />
       <Nav>
-        <div href="#services">Services</div>
-        <div href="#about">About us</div>
-        <div href="#blogs">Blogs</div>
-        <div href="#case-studies">Case Studies</div>
-        <ContactButton href="#contact">CONTACT US</ContactButton>
+        <div onClick={() => document.getElementById('services').scrollIntoView({ behavior: 'smooth' })}>Services</div>
+        <div onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })}>About us</div>
+        <div onClick={() => document.getElementById('blogs').scrollIntoView({ behavior: 'smooth' })}>Blogs</div>
+        <div >Case Studies</div>
+        <ContactButton onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>CONTACT US</ContactButton>
       </Nav>
     </HeaderBar>
     <HeroSection>
